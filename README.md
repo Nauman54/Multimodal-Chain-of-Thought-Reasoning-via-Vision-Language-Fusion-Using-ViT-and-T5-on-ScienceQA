@@ -8,21 +8,21 @@ https://arxiv.org/abs/2302.00923
 
 ---
 
-# 📌 Overview
+# Overview
 
 This project combines:
 
-- 👁️ Vision Transformer (ViT) for image understanding
-- 🧠 T5 for language reasoning and generation
-- 🔗 Embedding-level multimodal fusion
-- 🧩 Two-stage Chain-of-Thought reasoning
-- 📊 ScienceQA benchmark dataset
+- Vision Transformer (ViT) for image understanding
+- T5 for language reasoning and generation
+- Embedding-level multimodal fusion
+- Two-stage Chain-of-Thought reasoning
+- ScienceQA benchmark dataset
 
 The system first generates a rationale (reasoning explanation) and then predicts the final answer using multimodal context.
 
 ---
 
-# 🏗️ System Pipeline
+# System Pipeline
 
 ```text
 Input Image + Question + Context + Options
